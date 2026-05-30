@@ -149,8 +149,6 @@ The pyramid pivot sockets are the most dimensionally critical parts. If your pri
 
 ## Wiring and FC Integration
 
-![Wiring overview](images/wiring-diagram.png)
-
 The wiring is straightforward:
 
 1. Connect drone battery to step down converter input
@@ -177,8 +175,6 @@ Step through the points one at a time during a mission. Each step drops the next
 ---
 
 ## Assembly
-
-![Exploded assembly view](images/exploded-view.png)
 
 1. Print all parts. Clean up support material carefully around the pivot sockets and Geneva slots.
 2. Insert MG996R into the lower servo bay.
@@ -207,13 +203,15 @@ The base plate has four bolt holes sized for a Mark4 V2 10" FPV frame. For other
 
 ### V1 — Proof of Concept
 
-![V1 overview](images/v1-overview.png)
+https://github.com/user-attachments/assets/e3766b08-4272-4210-bcb9-dfcf5e273cf3
 
 The first version proved the Geneva sequencing concept worked. It used an SG90 servo and had two distinct sets of arms: a flat set for two Geneva mechanisms and a raised set for the other two, because the geometry didn't allow all four engagement pillars to sit at the same height. It worked but the two arm height approach added print complexity and assembly friction.
 
 The SG90 also immediately revealed itself as inadequate. The printed tolerances weren't perfect, which added friction throughout the mechanism. The SG90 stalled regularly under load. This wasn't fixable by tuning or grease since the servo simply didn't have enough torque for a reliable 4 stage Geneva sequence under any real payload weight.
 
 ### V2 — Unified Arms, Same Servo Problem
+
+https://github.com/user-attachments/assets/bb46a15b-bc07-45ec-ad2f-8966f5d29cbe
 
 V2 solved the geometry. By adjusting the pillar spacing and shaft diameter, all four engagement pillars fit at the same height, which meant a single set of arms worked for all four Geneva mechanisms. This simplified the print, reduced part count, and made assembly cleaner.
 
@@ -242,16 +240,14 @@ Payload weight limit hasn't been formally tested. In practice anything you'd dro
 ## Files
 
 ```
-cad/
-  v1/         — V1 source files and STLs
-  v2/         — V2 source files and STLs
-  v3-final/   — V3 final version, print these
-firmware/
-  radiomaster-config.md
+3d print/ - V3 stl files, print these
 
-  mechanism-overview.md
-  wiring-guide.md
-  fc-configuration.md
+cad/
+  v1/         — V1 source file
+  v2/         — V2 source file
+  v3-final/   — V3 final version
+
+images/
 ```
 
 ---
