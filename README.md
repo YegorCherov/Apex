@@ -85,6 +85,7 @@ The arms don't rest on cylindrical pins. A cylindrical pin in 3D printed plastic
 ![Servo connection top down](images/servo-topdown.png)
 
 The MG996R sits inside the lower housing. Its horn connects directly to the bottom of the central shaft, which runs the full height of the tube. The shaft is a two-part design (Tube Top and Tube Bot) that assembles around the internal structure. The four engagement pillars are part of the shaft.
+
 ![Internal shaft cross section](images/tube-assembly.png)
 ![Internal shaft cross section](images/cross-section-servo.png)
 
