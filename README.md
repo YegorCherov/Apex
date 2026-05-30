@@ -14,11 +14,11 @@ Apex is a 3D printed sequential payload dropper for FPV drones. It drops up to 4
 
 It accepts nearly any payload shape or size through a ziptie based holder system, which is what separates it from every other dropper out there. Most designs, including the closest competitor the revolver dropper, lock you into a fixed radius or shape. Apex doesn't care what you're dropping as long as it fits in the holder and you can run a zip tie through it.
 
-https://github.com/YegorCherov/Apex/blob/main/images/v1/dropper-video.mp4
+https://github.com/user-attachments/assets/e3766b08-4272-4210-bcb9-dfcf5e273cf3
 
 > This video shows V1. The current version (V3) is larger, uses an MG996R, and has a single unified arm set.
 
-https://githubusercontent.com/YegorCherov/Apex/main/images/v2/fpv-dropper-video.mp4
+https://github.com/user-attachments/assets/bb46a15b-bc07-45ec-ad2f-8966f5d29cbe
 
 > This video shows V2. The current version (V3) is larger and uses an MG996R.
 
