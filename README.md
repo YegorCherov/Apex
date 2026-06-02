@@ -78,7 +78,7 @@ The arms drop in order from bottom to top. After the sweep, the servo stays at 1
 ![Pyramid pivot socket](images/pyramid-pivot.png)
 ![Pyramid pivot socket](images/pyramid-pivot2.png)
 
-The arms don't rest on cylindrical pins. A cylindrical pin in 3D printed plastic has a tiny contact area and will shear under the load of a payload pulling down. Instead the pivot socket uses a pyramid profile — wider at the base, narrowing to a rounded tip. The arm sits in this cradle from above and below, distributing the load across the full face of the pyramid rather than concentrating it at a line contact. In testing this proved significantly more durable than any pin-based approach.
+The arms don't rest on cylindrical pins. A cylindrical pin in 3D printed plastic has a tiny contact area and will shear under the load of a payload pulling down. Instead the pivot socket uses a pyramid profile: wider at the base, narrowing to a rounded tip. The arm sits in this cradle from above and below, distributing the load across the full face of the pyramid rather than concentrating it at a line contact. In testing this proved significantly more durable than any pin based approach.
 
 ### The Servo Mount and Shaft
 
