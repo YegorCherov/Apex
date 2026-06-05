@@ -6,9 +6,9 @@ Designed by Yegor Cherov
 
 ---
 
-<img src="images/assembly-overview.png" alt="Apex full assembly" width="300" />
+<img src="images/assembly-overview.png" alt="Apex full assembly" width="600" />
 
-<img src="images/drone+dropper.jpeg" alt="Apex connected to drone" width="300" />
+<img src="images/drone+dropper.jpeg" alt="Apex connected to drone" width="600" />
 
 Apex is a 3D printed sequential payload dropper for FPV drones. It drops up to 4 independent payloads at separate times using a single MG996R servo and a 180° sweep. No electronics other than the servo. No additional channels. No extra weight.
 
