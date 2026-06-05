@@ -6,9 +6,9 @@ Designed by Yegor Cherov
 
 ---
 
-![Apex full assembly](images/assembly-overview.png)
+<img src="images/assembly-overview.png" alt="Apex full assembly" width="300" />
 
-![Apex connected to drone](images/drone+dropper.jpeg)
+<img src="images/drone+dropper.jpeg" alt="Apex connected to drone" width="300" />
 
 Apex is a 3D printed sequential payload dropper for FPV drones. It drops up to 4 independent payloads at separate times using a single MG996R servo and a 180° sweep. No electronics other than the servo. No additional channels. No extra weight.
 
@@ -42,7 +42,7 @@ None of them solved all the problems at once: universal payload acceptance, mult
 
 ## How It Works
 
-![Cross section full view](images/cross-section-full.png)
+<img src="images/cross-section-full.png" alt="Cross section full view" width="300" />
 
 The core idea is sequencing four Geneva mechanisms along a single driven shaft so that one continuous 180° servo rotation trips each one in order, bottom to top.
 
@@ -52,7 +52,7 @@ A Geneva drive converts continuous rotation into indexed, locked steps. The driv
 
 A regular gear would spin freely the moment the driver moves. A Geneva drive either moves exactly the right amount or doesn't move at all.
 
-![Geneva engagement detail](images/geneva-closeup.png)
+<img src="images/geneva-closeup.png" alt="Geneva engagement detail" width="300" />
 
 ### Sequencing Four Drops in 180°
 
@@ -71,29 +71,29 @@ The sequence across a full 180° sweep:
 
 The arms drop in order from bottom to top. After the sweep, the servo stays at 180° and nothing moves until you command it back for reset.
 
-![Pillar spacing detail](images/pillar-spacing.png)
+<img src="images/pillar-spacing.png" alt="Pillar spacing detail" width="300" />
 
 ### The Arm Pivot
 
-![Pyramid pivot socket](images/pyramid-pivot.png)
-![Pyramid pivot socket](images/pyramid-pivot2.png)
+<img src="images/pyramid-pivot.png" alt="Pyramid pivot socket" width="300" />
+<img src="images/pyramid-pivot2.png" alt="Pyramid pivot socket" width="300" />
 
 The arms don't rest on cylindrical pins. A cylindrical pin in 3D printed plastic has a tiny contact area and will shear under the load of a payload pulling down. Instead the pivot socket uses a pyramid profile: wider at the base, narrowing to a rounded tip. The arm sits in this cradle from above and below, distributing the load across the full face of the pyramid rather than concentrating it at a line contact. In testing this proved significantly more durable than any pin based approach.
 
 ### The Servo Mount and Shaft
 
-![Servo connection top down](images/servo-topdown.png)
+<img src="images/servo-topdown.png" alt="Servo connection top down" width="300" />
 
 The MG996R sits inside the lower housing. Its horn connects directly to the bottom of the central shaft, which runs the full height of the tube. The shaft is a two-part design (Tube Top and Tube Bot) that assembles around the internal structure. The four engagement pillars are part of the shaft.
 
-![Internal shaft cross section](images/tube-assembly.png)
-![Internal shaft cross section](images/cross-section-servo.png)
+<img src="images/tube-assembly.png" alt="Internal shaft cross section" width="300" />
+<img src="images/cross-section-servo.png" alt="Internal shaft cross section" width="300" />
 
 ---
 
 ## Payload Holders
 
-![Payload holders array](images/payload-holders.png)
+<img src="images/payload-holders.png" alt="Payload holders array" width="300" />
 
 Payloads attach using holders that slide onto the arm. Two sizes are included:
 
