@@ -4,8 +4,8 @@ Sequential 4-payload dropper for FPV drones, driven by a single servo.
 
 Yegor Cherov
 
-<img src="images/assembly-overview.png" alt="Apex full assembly" width="600" />
-<img src="images/drone+dropper.jpeg" alt="Apex connected to drone" width="600" />
+<img src="images/render-top-isometric.png" alt="Apex mounted on drone - top isometric view" width="600" />
+<img src="images/render-side-view.png" alt="Apex drone integration - side view with landing gear" width="600" />
 
 ## Overview
 
@@ -170,9 +170,12 @@ Map a switch or dial to the servo channel with a 5-point custom curve:
 
 Step through points sequentially in flight to release payloads in order.
 
-## Mounting
+## Mounting and Drone Integration
 
 Base plate bolt pattern matches a Mark4 V2 10" frame. For other frames, edit the base plate in CAD; the housing itself doesn't need to change.
+
+<img src="images/render-bottom-view.png" alt="Apex mounted on drone - bottom view" width="450" />
+<img src="images/render-front-view.png" alt="Apex mounted on drone - front view" width="450" />
 
 ## Version history
 
