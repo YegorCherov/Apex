@@ -2,8 +2,6 @@
 
 Sequential 4-payload dropper for FPV drones, driven by a single servo.
 
-Yegor Cherov
-
 <img src="images/render-top-isometric.png" alt="Apex mounted on drone - top isometric view" width="600" />
 <img src="images/render-side-view.png" alt="Apex drone integration - side view with landing gear" width="600" />
 
